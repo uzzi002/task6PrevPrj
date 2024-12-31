@@ -14,23 +14,24 @@ Installation:
 To set up and run this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/your_username/django-poll-app.git
+   git clone ...
+   2 – Introduction to Software Engineering/L2T20 – Django – Poll App/mySite/polls
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    cd django-poll-app
 
-3. Create a virtual environment and activate it:
+4. Create a virtual environment and activate it:
    python -m venv venv
    source venv/bin/activate   # For Linux/Mac
    venv\Scripts\activate      # For Windows
 
-4. Install the required dependencies:
+5. Install the required dependencies:
    pip install -r requirements.txt
 
-5. Apply migrations to set up the database:
+6. Apply migrations to set up the database:
    python manage.py migrate
 
-6. Start the development server:
+7. Start the development server:
    python manage.py runserver
 
 Usage:
