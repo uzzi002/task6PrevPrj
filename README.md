@@ -1,37 +1,57 @@
-Task 1 Project
+Django Poll App
 
 Description:
-This project demonstrates the use of Git and GitHub for version control as part of the HyperionDev Software Engineering Bootcamp. It showcases my ability to create, manage, and push repositories while adhering to industry standards. The project is important as it builds a foundation for collaborative coding and portfolio building.
+This project is a simple Django-based Poll App website. Users can create, view, and vote on polls. It demonstrates my ability to build a full-stack web application using Django, a powerful Python-based web framework. This project is significant as it highlights my skills in backend development, database integration, and web app deployment.
 
 Table of Contents:
 1. Description
 2. Installation
 3. Usage
-4. Credits
+4. Features
+5. Credits
 
 Installation:
-To install and set up this project locally, follow these steps:
+To set up and run this project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/uzzi002/gitTask.git
+   git clone https://github.com/your_username/django-poll-app.git
 
 2. Navigate to the project directory:
-   cd gitTask
+   cd django-poll-app
 
-3. Open the files using any text editor or IDE of your choice.
+3. Create a virtual environment and activate it:
+   python -m venv venv
+   source venv/bin/activate   # For Linux/Mac
+   venv\Scripts\activate      # For Windows
+
+4. Install the required dependencies:
+   pip install -r requirements.txt
+
+5. Apply migrations to set up the database:
+   python manage.py migrate
+
+6. Start the development server:
+   python manage.py runserver
 
 Usage:
-This project contains a Python script named helloWorld.py. To run the script:
+1. Open your web browser and navigate to http://127.0.0.1:8000/.
+2. View the list of polls, create a new poll, or vote on existing polls.
+3. Use the admin panel at http://127.0.0.1:8000/admin/ for managing polls (requires admin login credentials).
 
-1. Ensure Python is installed on your system. You can download it at https://www.python.org/downloads/.
-2. Open a terminal and navigate to the project directory:
-   cd gitTask
-3. Execute the script:
-   python helloWorld.py
-4. You should see a simple "Hello, World!" message printed on the screen, demonstrating the script’s functionality.
+Screenshots:
+Homepage Example:
+![image](https://github.com/user-attachments/assets/9d2231e2-0ffe-4d32-af56-8567da0b0cc3)
 
-Screenshot:
-(Screenshot not provided; include your project’s screenshot here if required.)
+
+Poll Voting Page Example:
+![image](https://github.com/user-attachments/assets/1dc33996-936f-4d49-9b28-9a21dc718881)
+
+
+Features:
+- Create, view, and manage polls.
+- Users can vote on polls with real-time results displayed.
+- Admin panel for managing polls and users.
+- Built using Django's MVC architecture.
 
 Credits:
-This project was created and maintained by Muhammed as part of the HyperionDev Software Engineering Bootcamp. Special thanks to the HyperionDev team for their support and guidance.
+This project was created by Muhammed Uzair as part of the HyperionDev Software Engineering Bootcamp. Special thanks to my mentors for their guidance and feedback.
